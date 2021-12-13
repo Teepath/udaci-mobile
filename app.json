@@ -1,12 +1,36 @@
+
 {
-  "name": "UdacityFitness",
-  "displayName": "UdacityFitness",
   "expo": {
     "name": "UdacityFitness",
     "slug": "UdacityFitness",
+    "privacy": "public",
+    "sdkVersion": "38.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://tylermcginnis.com/udacifitness-512.png",
+    "splash": {
+      "image": "https://tylermcginnis.com/udacifitness-512.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "org.udacifitness.exp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "org.udacifitness.exp",
+      "versionCode": 1
+    }
   }
 }

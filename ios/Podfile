@@ -18,4 +18,7 @@ target 'UdacityFitness' do
   #     flipper_post_install(installer)
   #   end
   # end
+  pod 'react-native-slider', :path => '../node_modules/@react-native-community/slider'
+
+
 end
