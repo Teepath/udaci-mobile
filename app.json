@@ -1,8 +1,8 @@
 
 {
   "expo": {
-    "name": "UdacityFitness",
-    "slug": "UdacityFitness",
+    "name": "fitness_app",
+    "slug": "fitness_app",
     "privacy": "public",
     "sdkVersion": "38.0.0",
     "platforms": [
@@ -12,9 +12,9 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "https://tylermcginnis.com/udacifitness-512.png",
+    "icon": "./assets/icon.png",
     "splash": {
-      "image": "https://tylermcginnis.com/udacifitness-512.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
